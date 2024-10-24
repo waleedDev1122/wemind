@@ -35,7 +35,7 @@ export default function GrowthStatsSection() {
   ];
 
   return (
-    <section className="growth-stats-section" ref={statsRef}>
+    <section className="growth-stats-section" ref={statsRef} id="benefits">
       <div className="container">
         <h2 className="section-title">
           Driving Mental Health Growth and Innovation

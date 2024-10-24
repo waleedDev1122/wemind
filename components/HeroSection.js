@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function HeroSection() {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="home">
       <div className="container">
         <div className="row align-items-center">
           {/* Left Side Content */}
@@ -46,7 +46,7 @@ export default function HeroSection() {
               alt="Jenna"
               className="hero-image"
             />
-            <div className="jenna-tag d-none d-lg-block">
+            <div className="jenna-tag">
               <p className="tag-text">Hi <b>Jenna</b> <span className="wave">👋</span></p>
             </div>
           </div>

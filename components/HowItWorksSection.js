@@ -1,6 +1,6 @@
 export default function HowItWorksSection() {
     return (
-      <section className="how-it-works-section">
+      <section className="how-it-works-section" id="features">
         <div className="container">
           <h2 className="section-title">
             How Wemind Helps You Deliver <span className="highlight-text">Better Care, Faster</span>

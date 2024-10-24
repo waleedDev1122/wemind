@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function WhyChooseUsSection() {
     return (
-        <section className="why-choose-section">
+        <section className="why-choose-section" id="how_it_works">
             <div className="container">
                 <div className="row align-items-center gap-5">
                     {/* Left Side (Image) */}
