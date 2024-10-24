@@ -14,7 +14,7 @@ export default function TestimonialSection() {
                     observer.disconnect();
                 }
             },
-            { threshold: 0.5 } // Trigger when 50% of the section is in view
+            { threshold: 0.5 }
         );
 
         if (testimonialRef.current) {

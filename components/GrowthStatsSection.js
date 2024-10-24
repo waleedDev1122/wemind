@@ -13,7 +13,7 @@ export default function GrowthStatsSection() {
           observer.disconnect();
         }
       },
-      { threshold: 0.5 } // Trigger when 50% of the section is in view
+      { threshold: 0.5 } 
     );
 
     if (statsRef.current) {
@@ -74,14 +74,14 @@ export default function GrowthStatsSection() {
   );
 }
 
-// Helper function for counting animation
+
 const CountUp = ({ end }) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
     let start = 0;
-    const duration = 1500; // Animation duration in ms
-    const increment = end / (duration / 50); // Adjust increment speed
+    const duration = 1500; 
+    const increment = end / (duration / 50); 
 
     const timer = setInterval(() => {
       start += increment;
